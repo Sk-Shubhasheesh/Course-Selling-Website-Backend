@@ -9,7 +9,7 @@ userRouter.post("/signup", function(req,res){
     })
 })
 
-userRouter.post("//signin", function(req,res){
+userRouter.post("/signin", function(req,res){
     res.json({
         message:"signin endpoint"
     })
