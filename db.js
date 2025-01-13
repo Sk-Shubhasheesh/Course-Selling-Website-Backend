@@ -1,7 +1,5 @@
 const mongoose =require('mongoose');
-console.log("DbConnected");
 
-mongoose.connect("mongodb+srv://shubhasheeshkundu02:OCuA34UcQ390T3YB@cluster0.d2dq8.mongodb.net/CourseSellingBackend");
 
 
 const Schema = mongoose.Schema;
