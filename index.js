@@ -14,7 +14,7 @@ app.use("/api/v1/course", courseRouter);
 
 
 async function main() {
-  await mongoose.connect("mongodb+srv://shubhasheeshkundu02:OCuA34UcQ390T3YB@cluster0.d2dq8.mongodb.net/CourseSellingBackend");
+  await mongoose.connect("");
 
   app.listen(port, () => {
     console.log(`App listening on port ${port}`)
