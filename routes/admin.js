@@ -1,6 +1,7 @@
 const { Router } = require("express")
 const { adminModel } = require('../db.js')
 
+// brcypte,zod, jsonwebtoken dependencies
 const adminRouter = Router();
 adminRouter.post("/signup", function(req,res){
     res.json({
